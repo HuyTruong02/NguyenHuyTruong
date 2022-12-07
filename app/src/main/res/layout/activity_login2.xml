@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background"
+    tools:context=".Login">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150dp"
+        android:orientation="vertical">
+
+        <ImageView
+
+            android:background="@drawable/login"
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:layout_gravity="center"
+
+            android:layout_margin="5dp">
+        </ImageView>
+        <EditText
+            android:hint="Tên đăng nhập"
+            android:id="@+id/edtname"
+            android:background="@drawable/bogoctron_background"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_margin="5dp">
+        </EditText>
+        <EditText
+            android:inputType="textPassword"
+            android:hint="mật khẩu"
+            android:id="@+id/edtpass"
+            android:layout_gravity="center"
+            android:background="@drawable/bogoctron_background"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp">
+        </EditText>
+        <LinearLayout
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/btnLogin"
+                android:text="Login"
+                android:background="@drawable/bogoctron_background"
+                android:layout_width="100dp"
+                android:backgroundTint="#ff00"
+                android:layout_height="35dp"
+                android:layout_margin="5dp">
+            </Button>
+            <Button
+                android:id="@+id/btncreate"
+                android:text="Resign"
+                android:background="@drawable/bogoctron_background"
+                android:layout_width="100dp"
+                android:backgroundTint="#ff00"
+                android:layout_height="35dp"
+                android:layout_margin="5dp">
+            </Button>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
